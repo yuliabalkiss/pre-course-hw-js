@@ -1,6 +1,8 @@
 let str = "zzzzyzz";
 function findSymbol (str){
-   console.log(str.includes('y') ? 'нашел' : 'заблудился')
+    let symbol = str.includes('y') ? 'нашел' : 'заблудился'
+   console.log(symbol)
+    return symbol
 
 }
 findSymbol(str);

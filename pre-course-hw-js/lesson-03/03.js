@@ -3,4 +3,4 @@ function foo (arr){
     return  arr.slice(1,-2)
 
 }
-foo(fruits);
+console.log(foo(fruits));

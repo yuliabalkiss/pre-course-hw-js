@@ -63,6 +63,5 @@ const users = [
 
 function foo(arr) {
     return arr.filter((words)=> words.id % 2 === 0);
-
 }
  console.log(foo(users))

@@ -5,6 +5,7 @@ function findOrange(arr){
     }else{
         console.log("Придется поискать в другом магазине…")
     }
+    return arr;
 }
  findOrange(words);
 

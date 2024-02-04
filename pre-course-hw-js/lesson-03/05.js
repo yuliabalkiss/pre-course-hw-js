@@ -27,7 +27,7 @@ const newObj = {
 }
 
 
-function foo (obj, obj2){
- return obj = {...obj, obj2}
+function foo (obj1, obj2){
+ return {...obj1, obj2}
 }
 console.log(foo(users2, newObj))

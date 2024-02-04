@@ -28,6 +28,9 @@ const newObj = {
 
 
 function foo (obj1, obj2){
- return {...obj1, obj2}
+     obj1.push(obj2)
+    return obj1
+
+
 }
 console.log(foo(users2, newObj))

@@ -4,17 +4,7 @@ const numbers = [
     [111, 200, 333, 400, 555],
 ];
   function foo (arr){
-      let newArr = []
-for(let value of  arr){
-  for(let key of value){
-     if(key % 2 === 0){
-         newArr.push(key)
-     }
-
-  }
-
-}
-return newArr;
+      return arr.map(item => item.filter(el => el % 2 === 0))
   }
 
 console.log(foo(numbers))

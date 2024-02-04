@@ -27,8 +27,7 @@ const newObj = {
 }
 
 
-function foo (arr, arr2){
-    arr.arr2 = arr2;
-    return arr;
+function foo (obj, obj2){
+ return obj = {...obj, obj2}
 }
 console.log(foo(users2, newObj))
